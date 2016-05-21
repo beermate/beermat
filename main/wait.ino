@@ -8,7 +8,7 @@ float waitForYes(float last) {
   reset(last);
 
   int x = 0;
-  while(x < 300){
+  while(x < 500){
     readPercentage();
     x++;
   }
